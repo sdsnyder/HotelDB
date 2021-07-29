@@ -1,6 +1,6 @@
 -- Sebastian Snyder
 
---Function/Procedure 1
+-- Function/Procedure 1
 
 
 --before script;
@@ -66,7 +66,7 @@ set serveroutput on;
 execute makeReservation(10,'Kei','Sanbe', TO_DATE('21-DEC-20','DD-MON-RR'), TO_DATE('31-DEC-20','DD-MON-RR'), 'double', TO_DATE('01-DEC-20','DD-MON-RR'));
 
 
---Function/Procedure 2
+-- Function/Procedure 2
 
 
 -- Before script;
@@ -97,7 +97,7 @@ dbms_output.put_line ('The reservation ID is ' || r);
 END;
 
 
---Function/Procedure 3
+-- Function/Procedure 3
 
 
 -- Before script;
@@ -125,7 +125,7 @@ execute cancelReservation(130); --executes procedure for reservation ID 130;
 select * from reservation; 
 
 
---Function/Procedure 4
+-- Function/Procedure 4
 
 
 --ShowCancelations: Print all canceled reservations in the hotel management system. Show reservation ID, hotel name, location, guest name, room type, dates
